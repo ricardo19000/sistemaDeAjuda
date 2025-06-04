@@ -14,9 +14,22 @@ public class Main {
             switch (escolha) {
                 case '1':
                     System.out.println("O if:\n");
-                    System.out.println("if (condição) instrução;");
-                    System.out.println("else instrução;");
+                    System.out.println("if (Condição) Instrução;");
+                    System.out.println("else Instrução;");
                     break;
+
+                case '2':
+                    System.out.println("O Switch:\n");
+                    System.out.println("Switch (Expressão) {");
+                    System.out.println("    case Constante:");
+                    System.out.println("        Instrução");
+                    System.out.println("        break;");
+                    System.out.println("    default:");
+                    System.out.println("        System.out.print(Mensagem de erro/exceção)");
+                    System.out.println("}");
+                    break;
+                default:
+                    System.out.print("Seleção não encontrada");
             }
         }
     }
