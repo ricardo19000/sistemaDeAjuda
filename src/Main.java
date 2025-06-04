@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Página 72 - Criar um sistema de ajuda para a linguagem Java
 public class Main {
     public static void main(String[] args)
         throws java.io.IOException {
